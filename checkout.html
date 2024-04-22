@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lojas Vami</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+
+<body>
+    
+    <section class="container-fluid bg-light text-center">
+   <header class="container-fluid p-2 bg-primary text-center">
+        <nav>
+            <ul>
+                <li><a href="#">Categoria</a></li>
+                <li><a href="#">produtos</a></li>
+                <li><a href="#">mais vendidos</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                <h3 class="title">Endereço de entrega</h3>
+                <div class="inputBox">
+                    <span>Nome completo :</span>
+                    <input type="text" placeholder="...">
+                </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="example@hotmail.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>Endereço :</span>
+                        <input type="text" placeholder="rua-avenida">
+                    </div>
+                    <div class="inputBox">
+                        <span>numero :</span>
+                        <input type="number" placeholder="89">
+                    </div>
+                    <div class="inputBox">
+                        <span>Cidade :</span>
+                        <input type="text" placeholder="Jundiai">
+                    </div>
+                    <div class="inputBox">
+                        <span>Bairro :</span>
+                        <input type="text" placeholder="vila nova">
+                    </div>
+                        <div class="flex">
+                        <div class="inputBox">
+                            <span>Estado :</span>
+                            <input type="text" placeholder="SP">
+                        </div>
+                        <div class="inputBox">
+                            <span>Cep :</span>
+                            <input type="text" placeholder="123-456">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <h3 class="title">Pagamento</h3>
+
+                    <div class="inputBox">
+                        <span>Cartões aceito :</span>
+                        <img src="img/pagamento/card_img.png">
+                    </div>
+                    <div class="inputBox">
+                        <span>Nome do cartão :</span>
+                        <input type="text" placeholder="...">
+                    </div>
+                        <div class="inputBox">
+                            <span>numero do cartão de crédito :</span>
+                            <input type="number" placeholder="1111-2222-3333">
+                        </div>
+                        <div class="inputBox">
+                            <span>Mês de validade :</span>
+                            <input type="text" placeholder="janeiro">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Ano de validade :</span>
+                                <input type="number" placeholder="2023">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="text" placeholder="1234">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <input type="submit" value="Finalizar a compra" class="submit-btn">
+            </form>
+
+        </div>
+
+
+
+        
+    <footer class="container-fluid">
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+<div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Suas Compras</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Produto adicionado ao carrinho</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <button type="button" class="btn btn-success">Finalizar a compra</button>
+        </div>
+      </div>
+    </div>
+  </div>
